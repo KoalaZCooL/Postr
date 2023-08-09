@@ -31,7 +31,7 @@ The app will have following abilities:
 
 ## Endpoints
 | Method | URL                                       | Request payload | Description                                             |
-| -------------------------------------------------- | --------------- | ------------------------------------------------------- |
+| ------ | ----------------------------------------- | --------------- | ------------------------------------------------------- |
 |   GET  | /api/v1/handler                           |         -       | create a new random handler                             |
 |   GET  | /api/v1/news/feed?next={timestamp_micro}  |         -       | returns top-level posts in timeline order, paginated    |
 |  POST  | /api/v1/news/create                       | news, handler   | create a text information (news)                        |
